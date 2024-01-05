@@ -20,11 +20,11 @@ public class KonyvtarProgram {
         //KÉPREGÉNY:     szerző, cím, állapot, oldalszám, kép db
         //REGÉNY:        szerző, cím, állapot, oldalszám, regénytípusa
         konyvtar = new Konyvtar();
-        konyvtar.beszerez(new Kepregeny("Anonim"));
-        konyvtar.visszavesz(new Regeny("Szoboszlai Mate", "Az elet meg minden", Allapotok.KIVALO, 120, RegenyTipusok.FEJLODES));
-        konyvtar.visszavesz(new Kepregeny("Seres Gyorgy", "Szerelmes hangok", Allapotok.UJSZERU, 120));
+        konyvtar.beszerez(new Kepregeny("Anonim", "Titok"));
+        konyvtar.visszavesz(new Regeny("Szoboszlai Mate", "Az elet meg minden", Allapotok.kivalo, 120, RegenyTipusok.fejlodes));
+        konyvtar.visszavesz(new Kepregeny("Seres Gyorgy", "Szerelmes hangok", Allapotok.ujszeru, 120));
         konyvtar.visszavesz(new Regeny("Keseru Anna", "A nyul, a farkas, meg az allatkert"));
-        konyvtar.visszavesz(new Regeny("Toth Ilona"));
+        konyvtar.visszavesz(new Regeny("Toth Ilona", "Veletlenek nincsenek"));
 
         konyvtarKonyveiKiir();
         // System.out.println(konyvtar.getKonyvek());

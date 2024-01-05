@@ -18,15 +18,7 @@ public class Kepregeny extends Konyv {
     }
 
     public Kepregeny(String szerzo, String cim) {
-        this(szerzo, cim, Allapotok.BEVIZSGALATLAN);
-    }
-
-    public Kepregeny(String szerzo) {
-        this(szerzo, "azonositatlan");
-    }
-
-    public Kepregeny() {
-        this("azonositatlan");
+        this(szerzo, cim, Allapotok.bevizsgalatlan);
     }
 
     // Egyedi funkció, amellyel csak a képregény típusú objektum rendelkezik

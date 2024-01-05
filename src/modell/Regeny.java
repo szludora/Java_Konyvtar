@@ -10,7 +10,7 @@ public class Regeny extends Konyv {
     }
 
     public Regeny(String szerzo, String cim, Allapotok allapot, int oldalszam) {
-        this(szerzo, cim, allapot, oldalszam, RegenyTipusok.BESOROLATLAN);
+        this(szerzo, cim, allapot, oldalszam, RegenyTipusok.besorolatlan);
     }
 
     public Regeny(String szerzo, String cim, Allapotok allapot) {
@@ -18,15 +18,7 @@ public class Regeny extends Konyv {
     }
 
     public Regeny(String szerzo, String cim) {
-        this(szerzo, cim, Allapotok.KIVALO);
-    }
-
-    public Regeny(String szerzo) {
-        this(szerzo, "azonositatlan");
-    }
-
-    public Regeny() {
-        this("azonositatlan");
+        this(szerzo, cim, Allapotok.bevizsgalatlan);
     }
 
     // egyedi funkció amellyel csak a regény típusú obj. rendelkezik
