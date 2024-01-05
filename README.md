@@ -1,4 +1,9 @@
 ## Könyvtár Program
+###### Készítette: Szlucska Dóra
+
+[Clone](https://github.com/szludora/Java_Konyvtar.git)
+
+
 >[!TIP]
 >"Nyitunk" egy **Könyvtárat**, amely kizárólag **Regény** és **Képregény** típusú **Könyveket** tud tárolni. Mindkét objektum a Könyv osztály utódja.
 > + A regény és a képregény közös őssel rendelkezik
